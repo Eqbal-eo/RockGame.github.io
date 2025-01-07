@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors Tutorial</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>ROCK PAPER SCISSORS GAME</nav>
+    <div class="choice-container">
+      <div>
+        <h2>
+          <img src="./computer.png" alt="" class="logo" /> <br />
+          Computer Choice
+        </h2>
+        <img id="computer-choice" src="" />
+      </div>
+      <div>
+        <h2>
+          <img src="./gamer.png" alt="" class="logo" /> <br />
+          User Choice
+        </h2>
+        <img id="user-choice" src="" />
+      </div>
+    </div>
+
+    <div class="button-container">
+      <img id="Rock" src="./rock.png" alt="Rock" /><br />
+      <img id="Paper" src="./paper.png" alt="Paper" />
+      <img id="Scissors" src="./scissors.png" alt="Scissors" />
+    </div>
+    <p class="js-score score"></p>
+    <button class="js-resetScore-button resetScore">Reset Score</button>
+    <p class="js-confirmation-message message-button"></p>
+
+    <div class="winner-container">
+      <h2>Winner:</h2>
+      <span id="winner" class="result-text"></span>
+    </div>
+
+    <footer>&copy; 2024, Mhd Eqbal AYOUB</footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
